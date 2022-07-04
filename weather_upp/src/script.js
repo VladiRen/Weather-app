@@ -48,16 +48,3 @@ function showTemperature(response) {
   wind.innerHTML = `${Math.round(response.data.wind.speed)}km/h`;
   
 }
-
- /*
-function showCityName (response){
-  //let city = document.querySelector(".city");
-  console.log(response.data);//not work
- 
-  
-  let searchInput = document.querySelector("#seach-text-input");
-   city.innerHTML =`${searchInput.value}`
-   
-}
-showCityName();
-*/
